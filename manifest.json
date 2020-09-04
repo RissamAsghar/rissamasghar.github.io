@@ -1,16 +1,10 @@
 {
   "short_name": "Rissam Asghar Portfolio",
-<<<<<<< HEAD
   "name": "Rissam Asghar Portfolio",
   "icons": [
     {
       "src": "/mypicture.jpeg",
-=======
-  "name": "RissamAsghar Portfolio",
-  "icons": [
-    {
-      "src": "/favicon.ico",
->>>>>>> a70fce74c9d5163c22f92c8ea4c774d47a5c5cc1
+  		"name": "RissamAsghar Portfolio",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
