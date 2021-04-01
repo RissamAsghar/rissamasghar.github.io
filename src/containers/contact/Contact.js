@@ -13,9 +13,7 @@ export default function Contact() {
                     <h1 className="heading contact-title">{contactInfo.title}</h1>
                     <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
 
-                    <div className="contact-text-div">
-                        <a className="contact-detail" href={"tel:" + contactInfo.number}>{contactInfo.number}</a>
-                        <br/><br/>
+                    <div className="contact-text-div">                   
                         <a className="contact-detail-email"
                            href={"mailto:" + contactInfo.email_address}>{contactInfo.email_address}</a>
                         <br/><br/>
@@ -23,7 +21,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="contact-image-div">
-                    <img alt="Saad Working" src={require("../../assets/images/contactMail.webp")}></img>
+                    <img alt="Rissam Working" src={require("../../assets/images/contactMail.webp")}></img>
                 </div>
             </div>
         </div>
