@@ -107,7 +107,7 @@ const workExperiences = {
     },
     {
       role: "Founder And CEO",   
-      company: "Hello",
+      company: "Chatzone",
       companylogo: require("./assets/images/icon.png"),
       date: "Jan 2019 – Present",
       desc: "An interactive user to user chat app in firebase "
