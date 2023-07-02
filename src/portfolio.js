@@ -28,11 +28,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY ANDROID AND FIREBASE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY ANDROID AND FIREBASE DEVELOPER ALONGWITH GRAPHICS DESIGNING AND WEB DEVELOPMENT WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your mobile applications"),
     emoji("⚡ Progressive Mobile Applications"),
     emoji("⚡ Integration of third party services such as Firebase/ Machine Learning")
+    emoji("⚡ Develop highly interactive front and back end of website")
+    emoji("⚡ Develop eye cacthing thumbnails, brochure, phamplets and much more")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -76,6 +78,15 @@ const techStack = {
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
+      Stack: "Graphics Designing",  //Insert stack or technology you have experience in
+      progressPercentage: "95%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Web Develpment",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
+    },
+    
+    {
       Stack: "Firebase Develpment",
       progressPercentage: "70%"
     },
@@ -104,6 +115,20 @@ const workExperiences = {
       date: "June 2018 – Present",
       desc: "",
      
+    },
+    {
+      role: "Graphics Designer",  
+      company: "Photoshop",
+      companylogo: require("./assets/images/java.png"),
+      date: "August 2021 – Present",
+      desc: ""
+    },
+    {
+      role: "Web Developer",  
+      company: "Web",
+      companylogo: require("./assets/images/java.png"),
+      date: "August 2021 – Present",
+      desc: "Work in html, css, JS, bootstrap, php, laravel and much more!"
     },
     {
       role: "Founder And CEO",   
